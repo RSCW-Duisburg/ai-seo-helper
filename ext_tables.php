@@ -8,4 +8,3 @@ if ($typo3Version->getMajorVersion() < 12 && empty($pageRenderer->getCharSet()))
     $pageRenderer->setCharSet('utf-8');
 }
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_aiseohelper_domain_model_customlanguage');
